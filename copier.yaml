@@ -1,0 +1,9 @@
+_min_copier_version: 6.0.0a9
+
+foo:
+  type: bool
+  help: Do you want to answer following question?
+bar:
+  type: bool
+  placeholder: Yes or no?
+  when: "{% if foo %}true{% endif %}"
